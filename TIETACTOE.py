@@ -1,3 +1,6 @@
+
+main.py
+-----------------------
 from player import Human, Computer, GeniusComputer
 import time
 
@@ -100,6 +103,10 @@ for _ in range(10):
 		tie += 1
 print(f'X_win {x_win},O_win {O_win}, tie_win {tie}')
 
+
+----------------------------------------
+
+player.py
 
 import random
 
